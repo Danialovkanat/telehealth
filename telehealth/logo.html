@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<svg width="500px" height="500px">
+    <rect width="90px" height="90px" x = "200", y = "200", rx="15", ry="15", style="fill:rgb(15,25,45); opacity:0.9" />
+    <rect id="rotated" width="90px" height="90px" x = "200", y = "200", rx="15", ry="15", style="fill:rgb(15,25,45); opacity:0.9" />
+
+    <text></text>
+</svg>
+
+<style>
+
+svg #rotated {
+  transform-box: fill-box;
+  transform-origin: center;
+  transform: rotate(29deg);
+}
+
+</style>
+ 
+</body>
+</html>
